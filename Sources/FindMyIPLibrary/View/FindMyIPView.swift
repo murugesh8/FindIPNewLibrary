@@ -12,7 +12,7 @@ public struct FindMyIPView: View {
     
     @StateObject var getIpViewModel : GetIPViewModel = GetIPViewModel(networking: NetworkManager())
     
-    init() {
+    public init() {
         
     }
     
