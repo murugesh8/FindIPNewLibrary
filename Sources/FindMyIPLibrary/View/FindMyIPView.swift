@@ -14,7 +14,7 @@ public struct FindMyIPView: View {
     
     @State var isButtonTapped: Bool = false
     
-    init() {
+    public init() {
         
     }
     
